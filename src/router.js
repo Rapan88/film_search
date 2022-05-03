@@ -14,11 +14,6 @@ const routes = [
         path: '/movies',
         component:()=>import("./components/MoviesPage.vue")
     },
-    {
-        path: '/movies/:id/cast',
-        name: 'Cast',
-        component:()=>import('@/components/Cast.vue')
-    },
 ]
 
 const router = createRouter({
